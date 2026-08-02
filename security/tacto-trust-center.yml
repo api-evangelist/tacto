@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.tacto.ai
+url: https://trust.tacto.ai
+certifications:
+- ISO/IEC 27001:2022
+- GDPR
+program:
+  iso_27001:
+    standard: ISO/IEC 27001:2022
+    certificate_no: DE-IS-20260285
+    issuer: Proks Cert GmbH
+    scope: Information security management system, independently audited
+  gdpr:
+    compliant: true
+    data_residency: EU
+    notes: Data processed in the EU; subprocessor list available in the Trust Center; DPA available.
+data_handling:
+  hosting: EU only
+  encryption: in transit and at rest
+  ai_training_on_customer_data: false
+  audit_log: Every AI action is recorded in the audit log
+resources:
+  trust_center: https://trust.tacto.ai
+  security_page: https://tacto.ai/en/security
+  subprocessor_list: Trust Center (behind questionnaire access)
+evidence:
+- source: https://tacto.ai/en/security
+  keywords: [iso 27001, gdpr, trust center, subprocessor, dpa, audit log]
+- source: https://trust.tacto.ai
+  status: 200
+- source: https://tacto.ai/en/imprint
+  keywords: [iso 27001 certified, gdpr compliant, hosted in the eu]

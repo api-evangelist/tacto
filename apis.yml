@@ -1,8 +1,29 @@
 aid: tacto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tacto.png
 name: Tacto
-description: 'Tacto is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Tacto (Tacto Technology GmbH) is a Munich-based AI procurement intelligence
+  platform for manufacturing companies. It unifies internal ERP and engineering
+  data with external market intelligence to power AI agents that automate
+  procurement work across four areas: Supplier Intelligence (centralized supplier
+  management with documents, evaluations and performance data), Spend & Cost
+  Intelligence (spend analysis and savings identification), Sourcing Intelligence
+  (AI-optimized RFQ and price inquiries) and Compliance Intelligence (automated
+  regulatory and supply-chain due-diligence detection). Tacto is ISO/IEC 27001:2022
+  certified and GDPR compliant with EU-only hosting and an audit log of every AI
+  action. It does not publish a public API or developer program; this profile
+  captures the company's corporate, security and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/tacto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +31,26 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Tacto Technology GmbH
+x-headquarters: Sandstraße 33, 80335 Munich, Germany
+x-registration: Munich District Court HRB 257852
+x-vat: DE333339774
+x-managing-directors:
+- André Petry
+- Johannes Groll
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Business Applications
+- Procurement
+- Supply Chain
+- Manufacturing
+- Artificial Intelligence
+- Sourcing
+- Compliance
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +59,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://tacto.ai/en
+  url: https://tacto.ai/en
+- type: Blog
+  url: https://tacto.ai/en/blog
+- type: Support
+  url: https://tacto.ai/en/community
+- type: PrivacyPolicy
+  url: https://tacto.ai/en/data-privacy
+- type: GitHubOrganization
+  url: https://github.com/tacto-ai
+- type: Security
+  url: https://tacto.ai/en/security
+- type: TrustCenter
+  url: https://trust.tacto.ai
+- type: Compliance
+  url: https://tacto.ai/en/security
+- type: Conformance
+  url: conformance/tacto-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/tacto-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/tacto-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

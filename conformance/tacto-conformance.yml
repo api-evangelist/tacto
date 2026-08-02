@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://tacto.ai/en/security
+note: >-
+  Tacto publishes no public API/OpenAPI, so cross-cutting API standards (oauth2, oidc,
+  rfc9457, pagination, json:api, etc.) cannot be asserted from a spec. The conformance
+  claims below are the organizational/compliance standards Tacto publishes on its
+  Security page, Trust Center, and Imprint.
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001:2022 certified (Proks Cert GmbH, certificate DE-IS-20260285)
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliant; data processed and hosted in the EU; DPA and subprocessor list published in Trust Center
+- id: soc2
+  conforms: false
+  evidence: not published
+- id: tisax
+  conforms: false
+  evidence: not published
+- id: oauth2
+  conforms: false
+  evidence: no public API / securitySchemes
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API
