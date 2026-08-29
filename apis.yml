@@ -36,6 +36,9 @@ description: >-
   action. It does not publish a public API or developer program; this profile
   captures the company's corporate, security and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/tacto/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It does not publish a public API or developer program; this profile captures the company's corporate, security and compliance surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
